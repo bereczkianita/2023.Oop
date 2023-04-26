@@ -14,6 +14,7 @@ public class CheckingAccount extends BankAccount {
     public void setOverdraftLimit(double overdraftLimit) {
         this.overdraftLimit = overdraftLimit;
     }
+
     public boolean whitdraw(double amount) {
         if (balance + overdraftLimit < amount) {
             return false;

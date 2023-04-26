@@ -19,6 +19,7 @@ public class Bank {
         }
         return null;
     }
+
     private void printCustomers(PrintStream ps){
         ps.println("ID, Firstname, Last name, Number of bank accounts");
         for (Customer customer : customers){

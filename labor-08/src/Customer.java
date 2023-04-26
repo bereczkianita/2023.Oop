@@ -14,6 +14,7 @@ public class Customer {
         return id;
     }
 
+
     public Customer(String firstName, String lastName, int accounts){
         numCustomers++;
         this.firstName = firstName;

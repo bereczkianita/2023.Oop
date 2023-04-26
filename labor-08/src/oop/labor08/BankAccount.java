@@ -2,6 +2,7 @@ package oop.labor08;
 import java.util.ArrayList;
 
 public class BankAccount {
+
     public static final String PREFIX = "OTP";
     public static final int ACCOUNT_NUMBER_LENGTH = 10;
     private static int numAccounts = 0;

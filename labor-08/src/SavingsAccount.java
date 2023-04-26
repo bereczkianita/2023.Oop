@@ -18,6 +18,7 @@ public class SavingsAccount extends BankAccount {
    }
    public void addInterest() {
       super.balance*=this.interestRate;
+
    }
 
    @Override
